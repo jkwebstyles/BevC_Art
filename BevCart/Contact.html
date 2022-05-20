@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bev-C</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+      <script src="https://kit.fontawesome.com/278b8b4a08.js" crossorigin="anonymous"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+  <link rel="shortcut icon" href="Pics/logo.png">
+  
+  
+  
+  <link rel="stylesheet" href="w3style-bevc.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <style>
+  
+  
+  
+    .welcome{   
+     margin: 0 auto;
+     width: 80%;
+         background-color: #8b3036d7; 
+    
+      font-family: quicksand sans-serif;
+          top: 150px;
+     }
+  
+     .landing{
+      padding-top: 100px;
+      
+      background-image: url(Pics/ArtStudio.png);
+      background-position: center;
+      background-size: cover;
+      height:100vh;
+      margin-top: 150px;
+     }
+    
+     @media screen and (min-width: 320px) {
+       .welcome {
+        
+         font-size: 12px;
+        
+     
+       }
+  
+      span{
+        font-size: 12px;
+      }
+  
+  
+     }
+
+     .row {
+      
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+     padding-top:20px;
+    }
+    
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+    /* Responsive layout - makes a two column-layout instead of four columns */
+    @media screen and (max-width: 800px) {
+      .column {
+        flex: 50%;
+        max-width: 50%;
+      }
+    }
+    
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        flex: 100%;
+        max-width: 100%;
+      }
+    }
+
+
+
+
+      </style>
+     
+      <script>
+          $(document).ready(function(){
+            $(".button").click(function(){
+              $(".frame-container").toggle("slow");
+            });
+          });
+          </script>
+  
+  
+      <title>Bev C's Art</title>
+  </head>
+  <body >
+      <header>
+                          
+        <div class="w3-container-nopadding w3-mobile alex-links  ">
+          <div class="navvy w3-mobile w3-bar ">
+          <img class="w3-bar-item w3-round w3-hide-small logo1" src="Pics/logo.png" >
+          <a href="index.html" target="_blank" class="w3-bar-item w3-button w3-mobile  w3-round w3-hide-small">Home</a>
+          <a href="Gallery.html" target="_blank" class="w3-bar-item w3-button w3-mobile w3-round w3-hide-small">Gallery</a>
+       <!--   <a href="https://jkwebstyles.com/upload/" target="_blank " class="w3-bar-item w3-button w3-mobile w3-round w3-hide-small">Shop</a>-->
+          <a href="Pricing.html" class="w3-bar-item w3-button w3-mobile w3-round w3-hide-small ">Commissions</a>   
+          <a href="Contact.html" class="w3-bar-item w3-button w3-mobile w3-round w3-hide-small home-button">Contact</a>
+  
+          
+  
+  <!-- The overlay-->
+  <div id="myNav" class="overlay">
+  
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  
+  <!--Overlay content-->
+      <div class="overlay-content">
+          <a href="index.html" target="_blank" class="w3-bar-item w3-button w3-mobile w3-round ">Home</a>
+          <a href="Gallery.html" target="_blank" class="w3-bar-item w3-button w3-mobile w3-round ">Gallery</a>
+       <!--  <a href="https://jkwebstyles.com/upload/" target="_blank " class="w3-bar-item w3-button w3-mobile w3-round ">Shop</a>-->
+          <a href="Pricing.html" class="w3-bar-item w3-button w3-mobile w3-round ">Commissions</a>   
+          <a href="Contact.html" class="w3-bar-item w3-button w3-mobile w3-round home-btn">Contact</a>
+    </div>
+  
+  </div>
+  
+  <!-- Use any element to open/show the overlay navigation menu -->
+  <span style="font-size:30px;cursor:pointer" class="w3-hide-medium w3-hide-large " onclick="openNav()">&#9776;</span>
+  
+  
+  
+  
+         </div>
+          </div>
+        </div>
+      </header>
+  
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+       
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+
+
+
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+   
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
+
+
+<!--Bulkcontent-->
+
+<div class="w3-row landing w3-center">
+
+    <div class="welcome w3-container  ">
+
+<h2 > <span style="color: #ffffff;font-family: 'Alex Brush', cursive ;font-size:50px;">Contact Me,</span></h2>
+<p><span style="color: #ffffff;font-family: 'quicksand' ; "><strong>Hi! I'm Bev, a South Somerset based, coloured pencil artist, specialising in creating realistic pet portraits that you can treasure for a lifetime.</strong></span></p>
+<p><span style="color: #ffffff; font-family: 'quicksand' ; ">As a proud mum to three wonderful children, who have grown up and flown the nest. I am also lucky to have three, gorgeous dogs, who are all full of character, along with a super big horse, who in turn, keep my husband and I, entertained. With these precious animals, I know how important our family and pets are to us;</span></p>
+<p><span style="color: #ffffff;font-family: 'quicksand' ;  "><strong>I want to help other pet lovers, where ever they may be, remember their much-loved animals forever, with a lifelike portrait that can be kept and cherished for years to come.</span></p>
+
+  </div>
+  <div class="w3-container">
+            <div class="w3-center w3-round carousel__btn " style="width:50% ; margin: 0 auto;margin-top: 50px;"><a href="https://forms.gle/J7hp16ePDZ3zezPj7"  style="text-decoration: none; " target="_blank">Contact Me via google forms</a></div>
+              </div>
+              <div class="w3-container">
+              <div class="w3-center w3-round carousel__btn " style="width:50% ; margin: 0 auto;margin-top: 50px;"><a href="https://www.facebook.com/Bev-Cs-Art-101436224938644/" target="_blank" style="font-family: 'quicksand' ;  text-decoration: none;" >Contact me at Facebook <i class="fa fa-facebook-square "></i></a></div>
+                </div>
+
+</div>  
+
+
+
+
+<div class="container-2 w3-container">  
+  
+<div class="w3-row">
+
+    <section class=" w3-col m12 l12 w3-center ">
+      
+      
+      
+                 
+     
+
+      
+      
+          
+         
+ </section>
+          
+         
+         
+           
+     
+
+
+
+    
+
+    
+</div>
+</div>
+
+
+
+
+
+<div class="footer w3-container ">
+
+
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin-top:128px"> 
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-youtube w3-hover-opacity"></i>
+    
+    <i class="fa fa-linkedin w3-hover-opacity"></i><p class="w3-medium"><i class="fa fa-copyright "></i> BevC's-Art 2022</p>
+
+    
+  </footer>
+
+
+
+</div>
+
+
+</body>
+</html>
